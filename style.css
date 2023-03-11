@@ -1,0 +1,87 @@
+.background {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	/* height: 100vh; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#btn {
+    box-shadow:1px 3px 9px gray ;
+}
+#btn:hover {
+   background-color:rgb(110, 228, 228);
+}
+#btn:active {
+   background-color: white;
+   /* transition: 2s; */;
+   transform: matrix3d(40px);
+}
+.hh {
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+#img{
+    background-image: url("./IMG_0946\ -\ Copy.JPG");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* width: 300px; */
+    height: 80vh;
+    background-size: cover;
+    background-clip: border-box;
+}
+#border {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab ,red,gold,blue);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	/* height: 100vh; */
+  /* width: 400px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding: 10px; */
+  /* margin: 20px; */
+}
+#button {
+  border-radius: 7px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+#button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button:hover span {
+  padding-right: 25px;
+}
+
+#button:hover span:after {
+  opacity: 1;
+}
+
