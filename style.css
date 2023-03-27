@@ -1,7 +1,11 @@
+* {
+  font-family: monospace;
+}
 .background {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 6s ease infinite;
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 100%;
+	animation: gradient 6s ease infinite; */
+  background-color: black;
 	/* height: 100vh; */
 }
 
@@ -33,13 +37,14 @@
     text-transform: capitalize;
 }
 #img{
-    background-image: url("./IMG_0946\ -\ Copy.JPG");
+    background-image: url("./css-tutorial.png");
     background-position: 50%;
     background-repeat: no-repeat;
     /* width: 300px; */
     height: 80vh;
     background-size: cover;
     background-clip: border-box;
+    border-radius: 120px;
 }
 #border {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab ,red,gold,blue);
@@ -84,4 +89,27 @@
 #button:hover span:after {
   opacity: 1;
 }
+#tr {
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: ease ease-in-out;
+  animation-iteration-count: infinite;
 
+  border:  2px solid red;
+  height: 200px;
+}
+@keyframes move {
+  0%{
+    image-orientation: from-image url(./activityImage.jpg);
+    height: 300px;
+  }
+  25%{
+
+  }
+  50%{
+
+  }
+  1000%{
+
+  }
+}
