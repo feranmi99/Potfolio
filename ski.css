@@ -3,7 +3,7 @@
     display: inline-flex;
 }
 .wrapper .dynamic {
-    /* height: 55px; */
+    height: 40px;
     overflow: hidden;
 }
 .dynamic li {
