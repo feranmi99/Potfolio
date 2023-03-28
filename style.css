@@ -1,5 +1,5 @@
 * {
-  font-family: monospace;
+  font-family: sans-serif;
 }
 .background {
 	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -91,13 +91,14 @@
 }
 #move {
   animation-name: move;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-timing-function: ease ;
   animation-iteration-count: infinite;
 }
 @keyframes move {
   0%{
     transform: scale(1.1,1.1);
+    top: 300px;
   }
   25%{
     transform: scale(1,1);
