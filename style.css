@@ -3,10 +3,10 @@
 }
 .background {
 	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 100%;
+	background-size: 400% 400%;
 	animation: gradient 6s ease infinite; */
   background-color: black;
-	/* height: 100vh; */
+	height: 100%;
 }
 
 @keyframes gradient {
@@ -101,19 +101,14 @@
     margin-top: 0px;
     /* margin-right: 20px; */
   }
-  25%{
+  50%{
     /* transform: scale(1,1); */
     margin-top: 40px;
     /* margin-left: 20px; */
   }
-  50%{
-    /* transform: scale(1.1,1.1); */
-  }
-  75%{
-    /* transform: scale(1.1); */
-  }
   100%{
     /* transform: scale(1.1,1.1); */
-
+    margin-top: 0px;
+    /* margin-right: 20px; */
   }
 }
