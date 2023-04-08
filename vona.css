@@ -1,9 +1,9 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-}
+} */
 body {
     background-color: black;
 
@@ -11,7 +11,7 @@ body {
 .con .text {
     position: relative;
     color: #34e7ff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 
 }
