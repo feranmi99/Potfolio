@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: black;
+
+}
+.con .text {
+    position: relative;
+    color: #34e7ff;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.con .text.first-text {
+    color:white;
+}
+.text.scond-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid #4070f4;
+    animation: aminmate 4s steps(12) infinite;
+
+}
+@keyframes aminmate {
+    40% ,60% {
+        left: calc(100% + 4px);
+    }
+    100% {
+        left: 0%;
+    }
+}
