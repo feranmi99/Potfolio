@@ -1,18 +1,14 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-} */
 body {
     background-color: black;
+    overflow-x: hidden;
 
 }
 .con .text {
     position: relative;
     color: #34e7ff;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
 
 }
 .con .text.first-text {
